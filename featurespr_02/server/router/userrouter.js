@@ -4,6 +4,6 @@ const { signup } = require("../controller/usercontroller");
 
 const userRoute = Router();
 
-userRoute.post("",authChecker,signup);
+userRoute.post("",signup);
 
 module.exports = userRoute
